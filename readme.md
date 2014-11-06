@@ -1,0 +1,5 @@
+# WebGL World
+
+## License
+
+MIT

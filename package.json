@@ -1,0 +1,16 @@
+{
+  "name": "webgl-world",
+  "version": "0.0.0",
+  "author": "Paul Nechifor <paul@nechifor.net> (http://nechifor.net/)",
+  "main": "./lib",
+  "scripts": {
+    "preinstall": "rm -fr lib; coffee -cbo lib src"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paul-nechifor/webgl-world"
+  },
+  "license": "MIT"
+}
