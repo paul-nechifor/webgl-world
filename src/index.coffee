@@ -3,6 +3,7 @@ exports.World = require './World'
 exports.WorldView = require './WorldView'
 exports.util = require './util'
 exports.examples =
+  Disapproval: require './examples/Disapproval'
   Moire: require './examples/Moire'
   Plasma: require './examples/Plasma'
 exports.shaders =

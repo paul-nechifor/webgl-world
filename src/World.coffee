@@ -7,6 +7,9 @@ module.exports = class World
     @scene = null
     @camera = null
 
+  @loadResources = (pathPrefix, cb) ->
+    cb()
+
   start: ->
     @setupWorld()
     @worldView.setupView()

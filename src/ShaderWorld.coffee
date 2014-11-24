@@ -1,4 +1,3 @@
-World = require './World'
 util = require './util'
 
 defaultVertexShader = """
@@ -10,7 +9,7 @@ defaultVertexShader = """
   }
 """
 
-module.exports = class ShaderWorld extends World
+module.exports = class ShaderWorld extends require './World'
   constructor: (opts) ->
     super @, opts.viewOpts
     @vertexShader = opts.vertexShader or defaultVertexShader
